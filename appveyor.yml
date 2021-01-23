@@ -34,6 +34,6 @@ test_script:
   - bundler --version
   - bash ./script/cibuild
 
-cache:
+cache: 
   # If one of the files after the right arrow changes, cache will be invalidated
   - 'vendor\bundle -> appveyor.yml,Gemfile,jekyll.gemspec'
